@@ -1,10 +1,11 @@
 // MY THEME COLORS
-$indigo:  #4F3B78;
 $purple:  #927FBF;
+$indigo:  #4F3B78;
 
 // THEME COLORS
 $primary:       $purple;
 $secondary:     $indigo;
+$testcolor:     #FF0000;
 
 // WHITES AND BLACKS
 $white:    #fff;
@@ -15,7 +16,7 @@ $gray-400: #ced4da;
 $gray-500: #adb5bd;
 $gray-600: #6c757d;
 $gray-700: #495057;
-$gray-800: #363B4E;
+$gray-800: #363B4E; // Background Color
 $gray-900: #212529;
 $black:    #000;
 
@@ -23,7 +24,19 @@ $black:    #000;
 $body-bg:                   $gray-800;
 
 // ACCORDION
-$accordion-color:                         $purple;
+$accordion-color:                   $primary;
+$accordion-bg:                      $gray-800;
+
+$accordion-border-color:            $secondary;
+
+$accordion-button-active-bg:        $gray-800;
+$accordion-button-active-color:     $primary;
+
+$accordion-icon-color:              $primary;
+$accordion-icon-active-color:       $primary;
+
+$accordion-button-icon:         url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$accordion-icon-color}'><path fill-rule='evenodd' d='M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z'/></svg>") !default;
+$accordion-button-active-icon:  url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$accordion-icon-active-color}'><path fill-rule='evenodd' d='M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z'/></svg>") !default;
 
 
 
